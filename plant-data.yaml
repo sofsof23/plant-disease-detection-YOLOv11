@@ -1,0 +1,27 @@
+# data.yaml – YOLOv11 Plant Disease Detection Dataset Configuration
+
+# Dataset paths (update to match your local setup)
+train: train/images
+val:   valid/images
+test:  test/images
+
+# Number of classes
+nc: 8
+
+# Class names
+names:
+  0: Tomato_Early_Blight
+  1: Tomato_Late_Blight
+  2: Tomato_Healthy
+  3: Potato_Early_Blight
+  4: Potato_Late_Blight
+  5: Potato_Healthy
+  6: Pepper_Bacterial_Spot
+  7: Pepper_Healthy
+
+# Dataset info
+# Source: PlantVillage Dataset
+# https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
+#
+# Crops covered: Tomato, Potato, Pepper
+# Task: Object Detection (bounding box around diseased/healthy leaf regions)
